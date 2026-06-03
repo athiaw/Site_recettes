@@ -1,0 +1,139 @@
+body {
+            font-family: Arial;
+            background-color: rgb(141, 197, 197);
+        }
+
+p#categorie {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    width: 150px;
+    
+}
+
+div.categorie {
+    text-align: center;
+    padding: 0px;
+    margin-bottom: -30px;
+    margin-top: 60px;
+    display: block;
+
+}
+
+div.contenu {
+    background-color: white;
+    padding: 20px;
+    margin: -10px 10% 80px 10%;
+    min-width: 467px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+h1 {
+    color: #692121;
+    text-align: center;
+}
+
+p.description {
+    font-size: 15px;
+    text-align: center;
+    max-width: 700px;
+    display: inline-block;
+}
+div.description {
+    text-align: center;
+
+}
+
+
+div.trait {
+    width: 150px;
+    height: 2px;
+    background-color: #272626;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+div.image {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+img.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 600px;
+    width: 100%;
+}
+
+table.table {
+    color: white;
+    background-color: rgba(102, 145, 173, 0.493);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+table.table td {
+    vertical-align: top;
+}
+
+table.preparation p.numero {
+    background-color: rgba(102, 145, 173);
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+div.colonne {
+    width: 45%;
+
+}
+
+div.colonne h2 {
+    color: #692121;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: rgba(102, 145, 173, 0.6) 5px solid;
+    padding-bottom: 5px;
+}
+
+div.ingredient p {
+    text-align: center;
+    font-size: 14px;
+    vertical-align: center;
+    border: lightgrey 1px solid;
+    padding: 5px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+div.colonne1 {
+    display: inline-block;
+
+}
+
+
+div.colonne2 {    
+    float: right;
+
+}
+
+* {
+    overflow: auto;
+}
